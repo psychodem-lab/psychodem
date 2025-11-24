@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Moja Prosta Wizytówka</title>
+    
+    <style>
+        /* Wklej tutaj CAŁY kod CSS, który wcześniej stworzyliśmy */
+        html {
+            scroll-behavior: smooth; 
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        /* --- Nagłówek i Nawigacja (Zaktualizowany dla Bloga) --- */
+        header {
+            background: #333;
+            color: white;
+            padding: 1em 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffd700;
+        }
+
+        /* --- Sekcje Treści (Ogólne) --- */
+        .content-section {
+            padding: 80px 20px;
+            margin: 0 auto;
+            max-width: 1000px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        /* --- Blog Styles --- */
+        .blog-post {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .blog-post h3 {
+            color: #333;
+            font-size: 1.8em;
+            margin-top: 0;
+        }
+        
+        .blog-post p.meta {
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        
+        .blog-post a.read-more {
+            display: inline-block;
+            background: #007bff;
+            color: white;
+            padding: 8px 15px;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 10px;
+            transition: background 0.3s;
+        }
+        
+        .blog-post a.read-more:hover {
+            background: #0056b3;
+        }
+
+        /* --- Stopka --- */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">⬅️ Powrót na Stronę Główną</a></li>
+                <li><a href="#blog-list">Najnowsze Wpisy</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content-section" id="blog-list">
+        <h2>📚 Blog i Aktualności</h2>
+        <p>Tutaj znajdziesz moje najnowsze przemyślenia, porady i aktualizacje dotyczące moich usług.</p>
+        
+        ---
+
+        <article class="blog-post">
+            <h3>Tytuł Wpisu 1: Jak zacząć z XYZ</h3>
+            <p class="meta">Opublikowano: 24 Listopada 2025 | Kategoria: Porady</p>
+            <p>To jest krótki fragment tekstu wprowadzającego. Opisuje, o czym jest artykuł i zachęca do dalszego czytania...</p>
+            <a href="post-1.html" class="read-more">Czytaj dalej</a>
+        </article>
+
+        <article class="blog-post">
+            <h3>Tytuł Wpisu 2: Studia Przypadku dla Klienta ABC</h3>
+            <p class="meta">Opublikowano: 15 Listopada 2025 | Kategoria: Case Study</p>
+            <p>Pokazujemy, jak nasze usługi pomogły firmie ABC osiągnąć ich cele. Wartościowe przykłady i konkretne rezultaty!</p>
+            <a href="post-2.html" class="read-more">Czytaj dalej</a>
+        </article>
+        
+        <article class="blog-post">
+            <h3>Tytuł Wpisu 3: 5 Trendów w Branży na 2026</h3>
+            <p class="meta">Opublikowano: 1 Listopada 2025 | Kategoria: Trendy</p>
+            <p>Przegląd najważniejszych zmian i trendów, które będą kształtować naszą branżę w przyszłym roku.</p>
+            <a href="post-3.html" class="read-more">Czytaj dalej</a>
+        </article>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Moja Prosta Wizytówka</p>
+    </footer>
+
+</body>
+</html>
