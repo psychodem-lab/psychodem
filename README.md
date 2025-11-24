@@ -1,2 +1,2 @@
 # psychodem
-psychodem-lab.github.io/psychodem
+https://psychodem-lab.github.io/psychodem
